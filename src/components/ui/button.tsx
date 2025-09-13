@@ -15,6 +15,10 @@ const buttonVariants = cva(
         secondary: "bg-secondary text-secondary-foreground hover:bg-secondary/80",
         ghost: "hover:bg-accent hover:text-accent-foreground",
         link: "text-primary underline-offset-4 hover:underline",
+        // Therapeutic variants using design system
+        therapy: "bg-gradient-primary text-primary-foreground rounded-[var(--radius-button)] font-medium shadow-[var(--shadow-soft)] hover:shadow-[var(--shadow-medium)] hover:-translate-y-0.5 transition-all duration-300",
+        "therapy-secondary": "bg-mint text-foreground rounded-[var(--radius-button)] font-medium hover:bg-mint-light transition-colors",
+        "therapy-outline": "border-2 border-primary/30 bg-background text-foreground rounded-[var(--radius-button)] font-medium hover:bg-primary-light hover:border-primary transition-colors",
       },
       size: {
         default: "h-10 px-4 py-2",
